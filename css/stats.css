@@ -1,0 +1,59 @@
+/* STATS*/
+
+#idEstadistica {
+  background: linear-gradient( 109.6deg,rgb(240, 123, 158) 11.2%, rgb(252, 176, 69) 91.2% );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#general {
+  margin-top: 20px;
+}
+#statsPasados {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 90%;
+  height: auto;
+  background: white;
+  margin-bottom: 5px;
+}
+
+.color {
+  background: -webkit-linear-gradient( right,  rgb(241, 76, 126), rgb(252, 176, 69), rgb(86, 216, 228),rgb(241, 76, 126), rgb(252, 176, 69), rgb(86, 216, 228), rgb(241, 76, 126), #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.color th {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+td {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid transparent;
+}
+
+th {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0px 0.5rem;
+  border: 3px solid transparent;
+  width: 33.3%;
+}
+
+.titulo-tabla {
+  text-align: center;
+}
+
+.titulo-tabla th {
+  font-weight: bolder;
+
+  background-color: rgb(253, 245, 134);
+}

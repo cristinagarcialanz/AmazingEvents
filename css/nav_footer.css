@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100% !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100% !important;
+}
+
+#todosLosEventos {
+  padding: 0 0.5rem;
+  width: 100%;
+  margin: 0;
+}
+
+.navbar-collapse {
+  justify-content: center !important;
+}
+
+.navbar-nav {
+  width: fit-content;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.nav-link {
+  font-family: "Questrial", sans-serif;
+  color: black;
+}
+
+.nav-link:hover {
+  font-weight: bold !important;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Questrial", sans-serif;
+  padding: 5px;
+  align-items: center;
+  background: rgb(252, 245, 157);
+}
+
+#carousel {
+  background: -webkit-linear-gradient(right, rgb(240, 123, 158), rgb(252, 176, 69), rgb(240, 123, 158), rgb(252, 176, 69));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 25px;
+  color: rgb(238, 82, 129);
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  filter: drop-shadow(0px 0px 4px rgb(240, 123, 158));
+}
+
+nav .navbar {
+  width: 100%;
+  padding: 0;
+}
+
+.form-inline {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-family: "Questrial", sans-serif;
+}
+
+.form-check-input:checked {
+  background-color: rgb(240, 123, 158) !important;
+  border: rgb(240, 123, 158);
+  box-shadow: none !important;
+}
+
+.form-check-input,
+.form-control {
+  box-shadow: none !important;
+  border-color: #b7b7b7 !important;
+}
+
+.form-check {
+  padding-right: 1rem;
+}
+
+footer {
+  margin-top: auto;
+  box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.42);
+}
+
+.text-white i {
+  color: white !important;
+  font-size: 1.5rem;
+  background-color: rgb(252, 176, 69);
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.text-white i:hover {
+  background: rgb(240, 123, 158);
+}
+
+.me-5 {
+  font-family: "Questrial", sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.btn-outline-success:hover {
+  background-color: rgb(240, 123, 158) !important;
+}
+
+.btn-outline-success {
+  background-color: rgb(240, 123, 158) !important;
+  color: white !important;
+  border-color: rgb(240, 123, 158) !important;
+  margin-left: 0.5rem;
+}
+
+.searchContainer {
+  display: flex;
+  padding: 0 0 0 1rem;
+  z-index: 100;
+}
+
+#searchContainer {
+  display: none;
+}
+
+#idDetalles {
+  display: none;
+}

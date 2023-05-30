@@ -1,0 +1,73 @@
+main {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: auto;
+}
+
+.imagen-detalles{
+    /* align-items: center;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px -2px 27px 1px rgba(217,61,155,0.49);
+    -webkit-box-shadow: 0px -2px 27px 1px rgba(217,61,155,0.49);
+    -moz-box-shadow: 0px -2px 27px 1px rgba(217,61,155,0.49); */
+    transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	float: left;
+	width: 50%;
+	display: inline-block;
+}
+.imagen-detalle:hover {transition: all 0.3s ease-out;}
+.imagen-detalle:hover {transform: scale(1.2, 1.2);}
+
+.card-title {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.card-text, .text-muted {
+  font-family: "Questrial", sans-serif;
+  font-size: 1rem;
+  color: black !important;
+}
+
+.content-boton-reserva {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.boton-reserva{
+    background: linear-gradient(
+        109.6deg,
+        rgb(240, 123, 158) 11.2%,
+        rgb(252, 176, 69) 91.2%
+      );
+      color: white;
+      border: none;
+      padding: 0.5rem;
+}
+.boton-reserva:hover{
+    background: rgb(240, 123, 158);
+    color: white;
+}
+
+#idDetalles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  display: none;
+}
+
+#todosLosEventos {
+  display: none;
+}

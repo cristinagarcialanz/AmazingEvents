@@ -1,0 +1,62 @@
+.card-title {
+  font-family: "Anton", sans-serif;
+  padding-top: 1.5rem;
+}
+.card-text {
+  font-family: "Questrial", sans-serif;
+}
+.card img {
+  width: 100%;
+  height: 22vh;
+}
+.card-body {
+  height: 29vh;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+.item {
+  width: 100%;
+  position: absolute !important;
+  bottom: 10px !important;
+}
+.texto-price {
+  font-size: 0.9rem;
+}
+.row .btn {
+  background: linear-gradient(
+    109.6deg,
+    rgb(240, 123, 158) 11.2%,
+    rgb(252, 176, 69) 91.2%
+  );
+  color: white;
+  border: none;
+  padding: 0.3rem;
+}
+.row .btn:hover {
+  background: rgb(240, 123, 158);
+  color: white;
+}
+
+.col-12,
+.col-md-6,
+.col-lg-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 2rem !important;
+}
+.col-6 {
+  align-items: center !important;
+  display: flex !important;
+  margin: 0 !important;
+}
+.ceroResult {
+  background: -webkit-linear-gradient(right, rgb(240, 123, 158), rgb(252, 176, 69), rgb(240, 123, 158), rgb(252, 176, 69));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;  
+  font-family: "Questrial", sans-serif;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
