@@ -1,7 +1,0 @@
-Entrega Amazing Events
-
-Hosting Firebase
-https://amazing-events-432f3.web.app
-
-Repositorio GitHub
-https://cristinagarcialanz.github.io/AmazingEvents/
